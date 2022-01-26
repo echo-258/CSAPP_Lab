@@ -1,0 +1,7 @@
+cookie: 0x1b2551ce
+
+ctarget touch2:
+
+movq $0x1b2551ce, %rdi
+movq $0x55671748, (%rsp)
+retq
